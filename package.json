@@ -1,0 +1,25 @@
+{
+  "name": "@adtypes/adtypes",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Abstract data types for your everyday programming",
+  "main": "index.js",
+  "repository": "https://github.com/adtypes/adtypes",
+  "author": "Martin Broder",
+  "license": "GNU",
+  "scripts": {
+    "build": "lerna run build",
+    "watch": "lerna run watch",
+    "test": "lerna run test",
+    "test:watch": "lerna run test:watch"
+  },
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {
+    "lerna": "^3.13.2",
+    "prettier": "1.16.4",
+    "tslint-config-prettier": "1.18.0",
+    "typescript": "3.4.3"
+  }
+}

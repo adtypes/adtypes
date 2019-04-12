@@ -1,0 +1,7 @@
+{
+  "files": [],
+  "references": [
+    { "path": "packages/algebras" },
+    { "path": "packages/id" }
+  ]
+}
